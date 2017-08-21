@@ -45,6 +45,7 @@ return [
     'locale_ru' => 'Ruština',
     'locale_cz' => 'Čeština',
     'locale_de' => 'Němec',
+    'locale_zh-cn' => '简体中文',
 
     'users_list_title' => 'Uživatelé s přístupem k tomuto účtu',
     'users_list_add_user' => 'Pozvat nového uživatele',

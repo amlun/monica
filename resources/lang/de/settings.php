@@ -46,6 +46,7 @@ return [
     'locale_cz' => 'Tschechisch',
     'locale_it' => 'Italienisch',
     'locale_de' => 'Deutsch',
+    'locale_zh-cn' => '简体中文',
 
     'users_list_title' => 'Benutzer, die Zugriff auf dein Konto haben',
     'users_list_add_user' => 'Einen Benutzer einladen',

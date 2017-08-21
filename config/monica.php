@@ -19,6 +19,7 @@ return [
         'cz',
         'it',
         'de',
+        'zh-cn',
     ],
 
    /*

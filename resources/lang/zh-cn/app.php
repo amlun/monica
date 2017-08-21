@@ -1,0 +1,60 @@
+<?php
+
+return [
+    'update' => '更新',
+    'save' => '保存',
+    'add' => '添加',
+    'cancel' => '取消',
+    'delete' => '删除',
+    'edit' => '编辑',
+    'upload' => '上传',
+    'close' => '关闭',
+    'remove' => '移除',
+
+    'markdown_description' => '想要你的文本展示的更美观？现在支持Markdown格式。',
+    'markdown_link' => '阅读文档',
+
+    'header_settings_link' => '设置',
+    'header_logout_link' => '注销',
+
+    'main_nav_cta' => '添加人员',
+    'main_nav_dashboard' => '控制台',
+    'main_nav_family' => '联系人',
+    'main_nav_journal' => '日记',
+    'main_nav_activities' => '活动',
+    'main_nav_tasks' => '任务',
+    'main_nav_trash' => '回收站',
+
+    'footer_remarks' => '反馈信息',
+    'footer_send_email' => '发邮件',
+    'footer_privacy' => '隐私策略',
+    'footer_release' => '版本记录',
+    'footer_newsletter' => '订阅信息',
+    'footer_source_code' => '为代码作贡献',
+    'footer_version' => '版本: :version',
+    'footer_new_version' => '版本有更新',
+
+    'footer_modal_version_whats_new' => '新特性',
+    'footer_modal_version_release_away' => '有最新的版本需要更新.当前使用的版本 :number',
+
+    'breadcrumb_dashboard' => '控制台',
+    'breadcrumb_list_contacts' => '联系人列表',
+    'breadcrumb_journal' => '日记',
+    'breadcrumb_settings' => '设置',
+    'breadcrumb_settings_export' => '导出',
+    'breadcrumb_settings_users' => '用户',
+    'breadcrumb_settings_users_add' => '添加用户',
+    'breadcrumb_settings_subscriptions' => '订购',
+    'breadcrumb_settings_import' => '导入',
+    'breadcrumb_settings_import_report' => '导入报告',
+    'breadcrumb_settings_import_upload' => '上传',
+    'breadcrumb_settings_tags' => '标签',
+    'breadcrumb_add_significant_other' => '添加伴侣',
+    'breadcrumb_edit_significant_other' => '修改伴侣',
+    'breadcrumb_add_note' => '添加笔记',
+    'breadcrumb_edit_note' => '修改笔记',
+
+    'gender_male' => '男人',
+    'gender_female' => '女人',
+    'gender_none' => '保密',
+];

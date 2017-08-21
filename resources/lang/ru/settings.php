@@ -44,6 +44,7 @@ return [
     'locale_cz' => 'Чешский',
     'locale_it' => 'итальянский',
     'locale_de' => 'немецкий',
+    'locale_zh-cn' => '简体中文',
 
     'users_list_title' => 'Users with access to your account',
     'users_list_add_user' => 'Invite a new user',

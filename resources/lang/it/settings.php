@@ -46,7 +46,7 @@ return [
     'locale_cz' => 'Ceco',
     'locale_it' => 'Italiano',
     'locale_de' => 'Tedesco',
-    'locale_zh-cn' => '简体中文',
+    'locale_zh-cn' => 'Cinese semplificato',
 
     'users_list_title' => 'Utenti con accesso al tuo account',
     'users_list_add_user' => 'Invita un nouvo utente',

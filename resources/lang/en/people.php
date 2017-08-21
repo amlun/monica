@@ -36,6 +36,7 @@ return [
 
     // show
     'section_personal_information' => 'Personal information',
+    'section_work_information' => 'Work Information',
     'section_personal_activities' => 'Activities',
     'section_personal_reminders' => 'Reminders',
     'section_personal_tasks' => 'Tasks',

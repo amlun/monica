@@ -284,6 +284,29 @@ class Contact extends Model
     }
 
     /**
+     * Mutator first_name.
+     *
+     * @param string|null $value
+     */
+    public function setFirstNameAttribute($value)
+    {
+        $this->attributes['first_name'] = trim($value);
+    }
+
+    /**
+     * Mutator last_name.
+     *
+     * It doesn't run ucfirst on purpose.
+     *
+     * @param string|null $value
+     */
+    public function setLastNameAttribute($value)
+    {
+        $value = $value ? trim($value) : null;
+        $this->attributes['last_name'] = $value;
+    }
+
+    /**
      * Get user's initials.
      *
      * @return string
@@ -831,6 +854,8 @@ class Contact extends Model
                             ->where('is_significant_other', 0)
                             ->where('is_kid', 0)
                             ->where('id', '!=', $this->id)
+                            ->orderBy('first_name', 'asc')
+                            ->orderBy('last_name', 'asc')
                             ->get();
 
         // Filter out the contacts who already partner with the given contact

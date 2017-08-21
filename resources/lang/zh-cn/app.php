@@ -11,13 +11,13 @@ return [
     'close' => '关闭',
     'remove' => '移除',
 
-    'markdown_description' => '想要你的文本展示的更美观？现在支持Markdown格式。',
+    'markdown_description' => '想要您的文本展示的更美观？现在支持Markdown格式。',
     'markdown_link' => '阅读文档',
 
     'header_settings_link' => '设置',
     'header_logout_link' => '注销',
 
-    'main_nav_cta' => '添加人员',
+    'main_nav_cta' => '添加联系人',
     'main_nav_dashboard' => '控制台',
     'main_nav_family' => '联系人',
     'main_nav_journal' => '日记',
@@ -29,13 +29,13 @@ return [
     'footer_send_email' => '发邮件',
     'footer_privacy' => '隐私策略',
     'footer_release' => '版本记录',
-    'footer_newsletter' => '订阅信息',
-    'footer_source_code' => '为代码作贡献',
+    'footer_newsletter' => '订阅',
+    'footer_source_code' => '贡献',
     'footer_version' => '版本: :version',
     'footer_new_version' => '版本有更新',
 
     'footer_modal_version_whats_new' => '新特性',
-    'footer_modal_version_release_away' => '有最新的版本需要更新.当前使用的版本 :number',
+    'footer_modal_version_release_away' => '有最新的版本需要更新。当前使用的版本 :number',
 
     'breadcrumb_dashboard' => '控制台',
     'breadcrumb_list_contacts' => '联系人列表',

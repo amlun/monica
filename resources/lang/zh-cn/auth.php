@@ -14,8 +14,8 @@ return [
     */
 
     'failed' => '用户名或密码不正确',
-    'throttle' => '您当前已经尝试了多次，请在 :seconds 秒后再试',
-    'not_authorized' => '您当前没有权限作此操作',
+    'throttle' => '您当前已经尝试了多次，请在 :seconds 秒后重试',
+    'not_authorized' => '您当前没有权限做此操作',
     'signup_disabled' => '当前禁止注册',
     'back_homepage' => '回到首页',
 

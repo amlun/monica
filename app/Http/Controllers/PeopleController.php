@@ -72,7 +72,8 @@ class PeopleController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'first_name' => 'required|max:255',
+            'first_name' => 'required|max:50',
+            'last_name' => 'nullable|max:100',
             'gender' => 'required',
         ]);
 
@@ -85,11 +86,9 @@ class PeopleController extends Controller
         $contact = new Contact;
         $contact->account_id = Auth::user()->account_id;
         $contact->gender = $request->input('gender');
-        $contact->first_name = ucfirst($request->input('first_name'));
 
-        if (! empty($request->input('last_name'))) {
-            $contact->last_name = ucfirst($request->input('last_name'));
-        }
+        $contact->first_name = $request->input('first_name');
+        $contact->last_name = $request->input('last_name', null);
 
         $contact->is_birthdate_approximate = 'unknown';
         $contact->save();
@@ -148,7 +147,8 @@ class PeopleController extends Controller
     public function update(Request $request, Contact $contact)
     {
         $validator = Validator::make($request->all(), [
-            'firstname' => 'required|max:255',
+            'firstname' => 'required|max:50',
+            'lastname' => 'max:100',
             'gender' => 'required',
             'file' => 'max:10240',
         ]);
@@ -161,12 +161,7 @@ class PeopleController extends Controller
 
         $contact->gender = $request->input('gender');
         $contact->first_name = $request->input('firstname');
-
-        if ($request->input('lastname') != '') {
-            $contact->last_name = $request->input('lastname');
-        } else {
-            $contact->last_name = null;
-        }
+        $contact->last_name = $request->input('lastname');
 
         if ($request->file('avatar') != '') {
             $contact->has_avatar = 'true';
